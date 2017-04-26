@@ -1,7 +1,7 @@
 var $ = require('jquery');
 var persona = require('./app.persona');
 
-$('h1').html('Hola Browserify');
+$('#msg').html('Hola Browserify. Mirar en la consola para ver resultados adicionales.');
 
 var carlos = new persona("Carlos", 30);
 carlos.saludar();
